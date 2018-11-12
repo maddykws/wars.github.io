@@ -1,0 +1,17 @@
+.character-bio {
+  flex: 1;
+
+  h2 { margin: 0 0 20px; }
+
+  .bio-details {
+    display: flex;
+    flex-wrap: wrap;
+
+    .flex-item {
+      flex: 0 0 50%;
+      margin-bottom: 10px;
+
+      &:nth-child(odd) { font-weight: 600; }
+    }
+  }
+}
